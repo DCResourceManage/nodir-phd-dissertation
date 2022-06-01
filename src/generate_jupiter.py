@@ -20,7 +20,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-""" Generate Juputer datacenter topology. """
+""" Generate Jupiter datacenter topology. """
 
 import argparse
 import json
