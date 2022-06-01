@@ -1,6 +1,6 @@
 # Copyright (c) 2021 Nodir Kodirov
 # 
-# Licensed under the MIT Licens (the "License").
+# Licensed under the MIT License (the "License").
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -57,4 +57,37 @@ TOR2MB_REGEX_FLIPPED = f'\(\'{MB_REGEX}+\',\s\'{TOR_REGEX}+\'\)'
 MB2SB_REGEX = f'\(\'{MB_REGEX}+\',\s\'{SB_REGEX}+\'\)'
 # example: ('p0_sb0', 'p0_mb0')
 MB2SB_REGEX_FLIPPED = f'\(\'{SB_REGEX}+\',\s\'{MB_REGEX}+\'\)'
+
+VM_CREATE_STR = 'create'
+VM_DELETE_STR = 'delete'
+
+TYPE_STR = 'type'
+VDC_UUID_STR = 'vdc_uuid'
+VM_UUID_STR = 'vm_uuid'
+
+CORES_STR = 'cores'
+RAM_STR = 'ram_in_gb'
+
+# Max VDC peak size: we make sure azure.csv VDCs to be up to this size
+MAX_PEAK_VDC_SIZE = 30
+
+TICK_STR = 'tick_'
+BW_STR = 'net_conns_in_mbps'
+WEIGHT_STR = 'weight'
+
+TIME_DRIFT = 100
+INVALID_TIMESTAMPS = [2556100, 2002300, 2001400, 2559700, 2393800, 2312200,
+        2580700, 2001100, 2458900, 1728700, 2271700, 2278900,
+        # delete_event times below
+        2557600, 2005900, 2004400, 2569000, 2395300, 2313100, 2581300, 2079100, 2591500]
+VDC_CONCAT_STR = '__'
+
+# example: 'net_conn_in_mbps': {dst_vm_uuid: 100, ...}
+NET_CONN_TYPE = Dict[str, int]
+
+# example: {'type': 'create', 'vdc_uuid': dep_id, 'vm_uuid': vm_id,
+# 'cores': 4, 'ram_in_gb': 8, 'net_conns_in_mbps': {}}
+EVENT_TYPE = Dict[str, Union[str, float, NET_CONN_TYPE]]
+
+EVENT_LIST_TYPE = Dict[int, List[EVENT_TYPE]]
 

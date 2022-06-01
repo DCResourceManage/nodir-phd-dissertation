@@ -1,6 +1,6 @@
 # Copyright (c) 2021 Nodir Kodirov
 # 
-# Licensed under the MIT Licens (the "License").
+# Licensed under the MIT License (the "License").
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal

@@ -1,0 +1,14 @@
+vdc3-vm1,subs1,vdc3,0,600,93.39,3.93,93.399416,Unkown,6,2
+vdc1-vm2,subs1,vdc1,0,600,99.34,3.19,99.344472,Interactive,2,6
+vdc1-vm1,subs1,vdc1,0,600,93.39,3.93,93.399416,Interactive,1,10
+vdc1-vm3,subs1,vdc1,300,900,99.34,3.19,99.344472,Delay-insensitive,2,6
+vdc1-vm4,subs1,vdc1,300,1200,93.39,3.93,93.399416,Unkown,1,10
+vdc2-vm1,subs1,vdc2,0,300,99.03,3.29,99.035587,Unkown,31,4
+vdc4-vm1,subs1,vdc4,0,600,99.03,3.29,99.035587,Unkown,2,8
+vdc3-vm2,subs1,vdc3,300,600,99.34,3.19,99.344472,Unkown,3,3
+vdc4-vm2,subs1,vdc4,600,1200,99.03,3.29,99.035587,Unkown,3,4
+vdc4-vm3,subs1,vdc4,600,900,99.03,3.29,99.035587,Unkown,5,5
+vdc4-vm4,subs1,vdc4,1500,2100,99.03,3.29,99.035587,Unkown,5,5
+vdc4-vm5,subs1,vdc4,1800,2100,99.03,3.29,99.035587,Unkown,5,5
+vdc2-vm2,subs1,vdc2,0,600,99.03,3.29,99.035587,Unkown,5,5
+vdc2-vm3,subs1,vdc2,300,900,99.03,3.29,99.035587,Unkown,5,5
